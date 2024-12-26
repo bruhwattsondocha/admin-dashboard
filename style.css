@@ -108,3 +108,12 @@ body {
   font-size: 0.8rem;
   font-weight: bold;
 }
+
+/* SIDEBAR */
+
+.side {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem 11rem;
+}
