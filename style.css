@@ -51,7 +51,7 @@ body {
 
   display: grid;
   grid-template-columns: 0.7fr 2fr 1fr;
-  grid-template-rows: 10rem 1fr;
+  grid-template-rows: 11rem 1fr;
 }
 
 .header {
@@ -64,4 +64,33 @@ body {
 
 .main {
   grid-column: 2 / 4;
+}
+
+
+/* HEADER  */
+
+.header {
+  display: grid;
+  grid-template-rows: 5fr 6fr;
+}
+
+.top-panel {
+  grid-row: 1;
+  grid-column: 1 / -1;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.right {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+.left {
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+  align-items: center ;
+  padding: 0 4rem;
 }
