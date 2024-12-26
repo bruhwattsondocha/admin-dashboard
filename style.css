@@ -56,7 +56,7 @@ body {
 
   display: grid;
   grid-template-columns: 0.7fr 2fr 1fr;
-  grid-template-rows: 11rem 1fr;
+  grid-template-rows: 8rem 1fr;
 }
 
 .header {
@@ -127,7 +127,6 @@ body {
 
   font-size: 1.4rem;
   font-weight: 600;
-  padding-bottom: 9rem;
 }
 
 .nav,
@@ -216,7 +215,7 @@ body {
   grid-template-rows: 2rem 1fr 2rem 1fr;
 }
 
-/* ANNOINCEMENTS */
+/* ANNOUNCEMENTS */
 
 .announcements {
   display: grid;
