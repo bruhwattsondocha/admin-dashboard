@@ -91,12 +91,12 @@ body {
   grid-column: 1 / -1;
 
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
+  grid-template-columns: 2fr 1fr;
 }
 
 .right {
   display: grid;
-  grid-template-columns: 1fr 1fr 4fr;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   text-align: center;
   gap: 1rem;
@@ -137,6 +137,14 @@ body {
   justify-self: start;
 }
 
+
+.right a {
+  color: black;
+  background-color: var(--default-color);
+  padding: 0.5rem 1rem;
+  border-radius: 16px;
+  text-decoration: none;
+}
 /* SIDEBAR */
 
 .side {
