@@ -301,10 +301,12 @@ body {
 }
 .announcement-item {
   font-size: .7rem;
+  padding-top: 1rem;
 }
 
-.announcement-item:not(:last-child) {
+.announcement-item:not(.announcement-item:last-child) {
   border-bottom: 2px solid rgb(74, 74, 74);
+  padding-bottom: 1rem;
 }
 
 .announcement-item .item-name {
