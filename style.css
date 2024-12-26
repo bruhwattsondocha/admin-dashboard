@@ -131,8 +131,12 @@ body {
 
 .bell-icon {
   justify-self: end;
+  min-width: 25px;
 }
 
+.avatar-icon {
+  min-width: 50px;
+}
 .right .name {
   justify-self: start;
 }
