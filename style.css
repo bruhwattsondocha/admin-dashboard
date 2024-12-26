@@ -44,6 +44,11 @@ div {
   border-radius: 12px;
 }
 
+:root {
+  --default-color: #a78bfa;
+  --inverted-default-color: #587405;
+}
+
 /* BODY */
 
 body {
@@ -115,7 +120,13 @@ body {
   padding: 1rem;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 5rem 11rem;
+  grid-template-rows: 5rem 15rem;
+
+  background-color: var(--default-color);
+  color: rgb(14, 13, 13);
+
+  font-size: 1.4rem;
+  font-weight: 600;
 }
 
 
@@ -227,5 +238,3 @@ body {
   font-size: 0.9rem;
 }
 
-/* #a78bfa DEFAULT COLOR */
-/* #587405 INVERSE COLOR */
