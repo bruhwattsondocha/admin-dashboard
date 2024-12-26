@@ -84,7 +84,7 @@ body {
   grid-column: 1 / -1;
 
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 3fr 1fr;
 }
 
 .bottom-panel {
@@ -96,15 +96,16 @@ body {
 
 .right {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 4fr;
   align-items: center;
   text-align: center;
+  gap: 1rem;
 }
 
 .left {
   display: grid;
   grid-template-columns: 3rem 1fr;
-  align-items: center ;
+  align-items: center;
   padding: 0 4rem;
 }
 
@@ -125,7 +126,17 @@ body {
   border: none;
   background-color: rgb(231, 231, 231);
   padding: 0 1rem;
+  width: 90%;
 }
+
+.bell-icon {
+  justify-self: end;
+}
+
+.right .name {
+  justify-self: start;
+}
+
 /* SIDEBAR */
 
 .side {
