@@ -115,10 +115,15 @@ body {
   font-weight: bold;
 }
 
-.left {
+.top-panel .left {
   display: grid;
   gap: 1rem;
   grid-template-columns: 1.5rem 1fr;
+}
+
+.bottom-panel .left {
+  display: grid;
+  gap: 1rem;
 }
 
 .search-bar {
