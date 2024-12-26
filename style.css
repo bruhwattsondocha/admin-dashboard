@@ -123,11 +123,11 @@ body {
 
 .main {
 
-  padding: 1rem;
+  padding: 1rem 1.5rem 1rem 1rem;
   gap: 1rem;
 
   display: grid;
-  grid-template-columns: 2fr 0.8fr;
+  grid-template-columns: 2fr 0.7fr;
   grid-template-rows: 1rem 1fr;
 }
 
@@ -192,7 +192,7 @@ body {
 }
 .announcement-item {
   font-size: .7rem;
-  padding: 1rem;
+  padding: 1rem 0 0 1rem;
 }
 .announcement-item .item-name {
   font-weight: bold;
