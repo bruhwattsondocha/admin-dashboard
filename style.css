@@ -114,6 +114,18 @@ body {
   font-weight: bold;
 }
 
+.left {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1.5rem 1fr;
+}
+
+.search-bar {
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(231, 231, 231);
+  padding: 0 1rem;
+}
 /* SIDEBAR */
 
 .side {
