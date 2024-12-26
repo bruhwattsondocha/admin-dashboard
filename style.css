@@ -82,10 +82,18 @@ body {
   grid-template-columns: 2fr 1fr;
 }
 
+.bottom-panel {
+  grid-column: 1 / -1;
+
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+
 .right {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
+  text-align: center;
 }
 
 .left {
@@ -93,4 +101,10 @@ body {
   grid-template-columns: 3rem 1fr;
   align-items: center ;
   padding: 0 4rem;
+}
+
+.greetings span {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
