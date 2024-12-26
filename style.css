@@ -40,13 +40,18 @@ h1, h2, h3, h4, h5, h6 {
 
 /* debug */
 div {
-  border: 2px solid red;
-  border-radius: 12px;
+  /* border: 2px solid red;
+  border-radius: 12px; */
 }
 
 :root {
   --default-color: #a78bfa;
+  /* --default-color: #0ea5e9; */
+  --default-light-color: #ede9fe;
+  /* --default-light-color: #f0f9ff; */
   --inverted-default-color: #587405;
+
+
 }
 
 /* BODY */
@@ -94,6 +99,9 @@ body {
   grid-template-columns: 2fr 1fr;
 }
 
+.top-panel .right {
+  grid-template-columns: 1fr 1fr 4fr;
+}
 .right {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -142,6 +150,7 @@ body {
 
 .avatar-icon {
   min-width: 50px;
+  border-radius: 50%;
 }
 .right .name {
   justify-self: start;
@@ -207,6 +216,8 @@ body {
   display: grid;
   grid-template-columns: 2fr 0.7fr;
   grid-template-rows: 1rem 1fr;
+
+  background-color: var(--default-light-color);
 }
 
 
@@ -226,6 +237,7 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: 3fr 1fr;
   align-content: center;
+  background-color: white;
 }
 
 .grid-item .item-info {
@@ -267,6 +279,8 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 1fr);
+
+  background-color: white;
 }
 .announcement-item {
   font-size: .7rem;
@@ -286,6 +300,7 @@ body {
 .trending {
   display: grid;
   align-content: space-evenly;
+  background-color: white;
 }
 .trending span {
   display: block;
@@ -305,3 +320,8 @@ body {
   font-size: 0.9rem;
 }
 
+.grid-item,
+.announcements,
+.trending {
+  border-radius: 12px;
+}
