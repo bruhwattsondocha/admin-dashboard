@@ -182,3 +182,47 @@ body {
 
   grid-template-rows: 2rem 1fr 2rem 1fr;
 }
+
+/* ANNOINCEMENTS */
+
+.announcements {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+}
+.announcement-item {
+  font-size: .7rem;
+  padding: 1rem;
+}
+.announcement-item .item-name {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.announcement-item .item-description {
+  font-size: 0.6rem;
+}
+
+/* TRENDING */
+
+.trending {
+  display: grid;
+  align-content: space-evenly;
+}
+.trending span {
+  display: block;
+}
+
+.trending-item {
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  align-items: center;
+}
+
+.item-avatar {
+  justify-self: center;
+}
+
+.trending-item .item-name {
+  font-size: 0.9rem;
+}
