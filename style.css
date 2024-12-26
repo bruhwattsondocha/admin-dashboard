@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Outfit' ,system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -226,3 +226,6 @@ body {
 .trending-item .item-name {
   font-size: 0.9rem;
 }
+
+/* #a78bfa DEFAULT COLOR */
+/* #587405 INVERSE COLOR */
