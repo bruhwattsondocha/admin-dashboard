@@ -141,14 +141,16 @@ body {
   justify-self: start;
 }
 
-
 .right a {
+  display: block;
+  width: 10ch;
   color: black;
   background-color: var(--default-color);
   padding: 0.5rem 1rem;
   border-radius: 16px;
   text-decoration: none;
 }
+
 /* SIDEBAR */
 
 .side {
