@@ -46,10 +46,8 @@ div {
 
 :root {
   --default-color: #c4b5fd;
-  /* --default-color: #0ea5e9; */
   --default-light-color: #ede9fe;
-  /* --default-light-color: #f0f9ff; */
-  --inverted-default-color: #587405;
+  --inverted-default-color: #3b4a02;
 
 
 }
@@ -240,6 +238,7 @@ body {
   background-color: white;
 
   max-height: 200px;
+  border-left: var(--inverted-default-color) 4px solid;
 }
 
 .grid-item .item-info {
