@@ -228,7 +228,9 @@ body {
   grid-row: 2;
 
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: max-content;
   gap: 1.5rem;
+  align-items: start;
 }
 
 .grid-item {
@@ -238,7 +240,7 @@ body {
   align-content: center;
   background-color: white;
 
-  max-height: 200px;
+  /* max-height: 200px; */
   border-left: var(--inverted-default-color) 4px solid;
 }
 
