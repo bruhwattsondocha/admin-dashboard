@@ -40,8 +40,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* debug */
 div {
-  /* border: 2px solid red;
-  border-radius: 12px; */
+  outline: 2px solid red;
+  border-radius: 12px;
 }
 
 :root {
@@ -94,7 +94,7 @@ body {
   grid-column: 1 / -1;
 
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 3fr 1fr;
 }
 
 .top-panel .right {
@@ -164,6 +164,14 @@ body {
   text-decoration: none;
 }
 
+.bottom-panel .right {
+  display: grid;
+  justify-items: center;
+}
+
+.bottom-panel .right p {
+  width: fit-content;
+}
 /* SIDEBAR */
 
 .side {
