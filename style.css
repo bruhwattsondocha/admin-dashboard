@@ -220,6 +220,10 @@ body {
   cursor: pointer;
 }
 
+.side p:hover {
+  color: white;
+}
+
 /* MAIN */
 
 .main {
