@@ -311,25 +311,30 @@ body {
 
   background-color: white;
   padding: 1rem;
-  /* gap: 0.5rem; */
+  align-items: center;
+  gap: 0.5rem;
 }
 .announcement-item {
   font-size: .7rem;
+  height: fit-content;
   /* padding-top: 1rem; */
 }
 
 .announcement-item:not(.announcement-item:last-child) {
   border-bottom: 2px solid rgb(74, 74, 74);
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
 }
 
 .announcement-item .item-name {
   font-weight: bold;
   font-size: 1.1em;
+  padding: 0 0.5rem;
 }
 
 .announcement-item .item-description {
   font-size: 0.8rem;
+  padding: 0 0.5rem;
+  /* text-align: center; */
   color: rgb(74, 74, 74);
 }
 
