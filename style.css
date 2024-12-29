@@ -296,6 +296,14 @@ body {
 .grid-item .item-icons img:hover {
   cursor: pointer;
 }
+
+.item-icons > img {
+  transition: .05s;
+}
+
+.item-icons > img:hover {
+  scale: 1.2;
+}
 /* MAIN MISC */
 
 .misc-grid {
