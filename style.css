@@ -313,8 +313,9 @@ body {
   grid-column: 2 / 3;
 
   grid-template-rows: 2rem 1fr 2rem 1fr;
-  /* gap: 1rem; */
-  width: 80%;
+
+  justify-self: center;
+  max-height: fit-content;
 }
 
 /* ANNOUNCEMENTS */
@@ -328,6 +329,7 @@ body {
   padding: 1rem;
   align-items: center;
   gap: 0.5rem;
+  /* width: 80%; */
 
 }
 .announcement-item {
@@ -360,11 +362,9 @@ body {
   display: grid;
   align-content: space-evenly;
   background-color: white;
-  height: fit-content;
+  /* height: fit-content; */
   gap: 1rem;
   padding: 2rem 1rem;
-
-  width: fit-content;
 }
 
 .trending p {
