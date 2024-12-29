@@ -344,6 +344,13 @@ body {
   display: grid;
   align-content: space-evenly;
   background-color: white;
+  height: fit-content;
+  gap: 1rem;
+  padding: 2rem 1rem;
+}
+
+.trending p {
+  min-width: max-content;
 }
 .trending span {
   display: block;
@@ -361,6 +368,11 @@ body {
 
 .trending-item .item-name {
   font-size: 0.9rem;
+  color: grey;
+}
+
+.trending-item .item-name span {
+  color: black;
 }
 
 .grid-item,
