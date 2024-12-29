@@ -313,6 +313,7 @@ body {
   padding: 1rem;
   align-items: center;
   gap: 0.5rem;
+
 }
 .announcement-item {
   font-size: .7rem;
@@ -347,6 +348,8 @@ body {
   height: fit-content;
   gap: 1rem;
   padding: 2rem 1rem;
+
+  width: fit-content;
 }
 
 .trending p {
@@ -358,11 +361,12 @@ body {
 
 .trending-item {
   display: grid;
-  grid-template-columns: 5rem 1fr;
+  grid-template-columns: 1fr 3fr;
+  gap: 1rem;
   align-items: center;
 }
 
-.item-avatar {
+.avatar-icon {
   justify-self: center;
 }
 
