@@ -116,7 +116,8 @@ body {
   display: grid;
   grid-template-columns: 3rem 1fr;
   align-items: center;
-  padding: 0 4rem;
+  /* padding: 0 2rem; */
+  padding-left: 2rem;
 }
 
 .greetings span {
