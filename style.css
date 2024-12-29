@@ -259,6 +259,7 @@ body {
   grid-template-rows: 3fr 1fr;
   align-content: center;
   background-color: white;
+  min-height: 200px;
 
   /* max-height: 200px; */
   border-left: var(--inverted-default-color) 4px solid;
