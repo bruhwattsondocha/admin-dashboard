@@ -216,7 +216,9 @@ body {
   max-height: 1em;
 }
 
-
+.side p {
+  cursor: pointer;
+}
 
 /* MAIN */
 
