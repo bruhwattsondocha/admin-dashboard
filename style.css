@@ -40,8 +40,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* debug */
 div {
-  outline: 2px solid red;
-  border-radius: 12px;
+  /* outline: 2px solid red;
+  border-radius: 12px; */
 }
 
 :root {
@@ -99,6 +99,10 @@ body {
 
 .top-panel .right {
   grid-template-columns: 1fr 1fr 4fr;
+}
+.top-panel .right p {
+  min-width: max-content;
+
 }
 .right {
   display: grid;
